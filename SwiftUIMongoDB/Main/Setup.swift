@@ -9,5 +9,5 @@ import Foundation
 
 struct Setup {
     // https://www.mongodb.com/docs/realm/sdk/swift/swiftui/#integrate-atlas-device-sync
-    static let syncAppId = "YOUR_APP_SERVICES_APP_ID_HERE"
+    static let syncAppId = "application-0-omljs"
 }

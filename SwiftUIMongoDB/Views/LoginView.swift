@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 /// Represents the login screen. We will have a button to log in anonymously.
 struct LoginView: View {
@@ -35,6 +36,14 @@ struct LoginView: View {
     
     func login() {
         isLoggingIn = true
+        app!.login(credentials: .anonymous) { result in
+            if case let .failure(error) = result {
+                print("Failed to log in: \(error.localizedDescription)")
+                self.error = error
+                return
+            }
+            print("Logged in")
+        }
     }
 }
 
