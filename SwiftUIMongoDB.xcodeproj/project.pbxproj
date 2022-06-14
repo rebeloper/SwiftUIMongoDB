@@ -104,10 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				C965832C2854553F00BE918B /* ErrorView.swift */,
-				C965832E2854556000BE918B /* LogoutButton.swift */,
 				C9658330285455D600BE918B /* ItemDetailsView.swift */,
 				C96583322854560E00BE918B /* ItemsView.swift */,
 				C965833A285456FE00BE918B /* LocalOnlyContentView.swift */,
+				C965832E2854556000BE918B /* LogoutButton.swift */,
 				C96583342854565800BE918B /* LoginView.swift */,
 				C96583362854569300BE918B /* OpenSyncedRealmView.swift */,
 				C9658338285456D600BE918B /* SyncContentView.swift */,
